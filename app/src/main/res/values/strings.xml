@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dream Socialize</string>
+    <string name="login">Đăng nhập</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="user_name">Mã số sinh viên</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="no_acc">Bạn chưa có tài khoản</string>
+    <string name="had_acc">Đã có tài khoản</string>
+    <string name="upload_avt">Cập nhật ảnh đại diện</string>
+    <string name="choose_avt">Chọn ảnh đại diện</string>
+    <string name="Dream">Tôi ước...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
