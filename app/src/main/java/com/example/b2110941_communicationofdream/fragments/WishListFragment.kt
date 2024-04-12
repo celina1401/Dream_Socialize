@@ -97,7 +97,7 @@ class WishListFragment : Fragment(){
                         binding.progressBar.visibility = View.GONE
                         Toast.makeText(requireContext(), response.message, Toast.LENGTH_SHORT).show()
                         requireActivity().supportFragmentManager.beginTransaction()
-                            .replace(R.id.frame_layout, LoginFragment())
+                            .replace(R.id.frame_layout, WishListFragment())
                             .commit()
                     }
                 }

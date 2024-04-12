@@ -57,14 +57,12 @@ class RegisterFragment : Fragment() {
                         .body()
                     if(response != null){
                         if(response.success){
-                            //Đăng kí thành công
-                            //Nhân user lu dô se-ré-phơ-rành-xi
                             mAppSharedPreferences.putIdUser("idUser", response.idUser!!)
                             requireActivity().supportFragmentManager.beginTransaction()
                                 .replace(R.id.frame_layout,WishListFragment()).commit()
                             progressBar.visibility = View.GONE
                         }
-                        else //Đăng kí tài khoản thất bại
+                        else
                         {
                             tvMessage.text = response.message
                             tvMessage.visibility = View.VISIBLE

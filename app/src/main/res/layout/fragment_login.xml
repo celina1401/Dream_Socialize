@@ -64,11 +64,11 @@
 
             </LinearLayout>
             <TextView
+                android:id="@+id/tv_message"
                 android:visibility="gone"
                 app:layout_constraintTop_toBottomOf="@+id/edt_username"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:id="@+id/tv_message"
                 android:textColor="#fb6f92"
                 android:textStyle="bold"
                 android:layout_marginBottom="5dp"
